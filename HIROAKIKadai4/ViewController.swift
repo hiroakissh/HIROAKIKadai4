@@ -23,7 +23,9 @@ class ViewController: UIViewController {
         countLabel.text = String(counter)
     }
 
-    @IBAction func countClearButton(_ sender: Any) {
+    @IBAction private func countClearButton(_ sender: Any) {
+        counter = 0
+        countLabel.text = String(counter)
     }
 
 }
