@@ -10,6 +10,7 @@
 		53A6DDF027321D02004F7780 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A6DDEF27321D02004F7780 /* AppDelegate.swift */; };
 		53A6DDF227321D02004F7780 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A6DDF127321D02004F7780 /* SceneDelegate.swift */; };
 		53A6DDF427321D02004F7780 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A6DDF327321D02004F7780 /* ViewController.swift */; };
+		53A6DE06273228B3004F7780 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53A6DDF527321D02004F7780 /* Main.storyboard */; };
 		CB8BDADF9BEFE19A789421B0 /* Pods_HIROAKIKadai4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA6A761BBAC8FDDBB6303BCD /* Pods_HIROAKIKadai4.framework */; };
 /* End PBXBuildFile section */
 
@@ -110,6 +111,7 @@
 				53A6DDE827321D02004F7780 /* Sources */,
 				53A6DDE927321D02004F7780 /* Frameworks */,
 				53A6DE0427321DB1004F7780 /* ShellScript */,
+				53A6DE05273228A9004F7780 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -152,6 +154,17 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53A6DE05273228A9004F7780 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53A6DE06273228B3004F7780 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
 		48C52057CB210ADEA037C978 /* [CP] Check Pods Manifest.lock */ = {
