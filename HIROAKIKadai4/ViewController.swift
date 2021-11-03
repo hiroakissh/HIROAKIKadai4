@@ -10,6 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     @IBOutlet var countLabel: UILabel!
 
+    var counter: Int = 0
+
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -19,6 +21,6 @@ class ViewController: UIViewController {
 
     @IBAction func countClearButton(_ sender: Any) {
     }
-    
+
 }
 
