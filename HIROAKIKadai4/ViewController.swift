@@ -27,6 +27,4 @@ class ViewController: UIViewController {
         counter = 0
         countLabel.text = String(counter)
     }
-
 }
-
