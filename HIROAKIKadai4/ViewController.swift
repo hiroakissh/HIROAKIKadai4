@@ -14,6 +14,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        countLabel.text = String(counter)
     }
 
     @IBAction func countUPButton(_ sender: Any) {
